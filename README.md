@@ -23,4 +23,7 @@ The System consists of two main components -
 * Admin tab
 * Employee tab
 
+## Methodology
+### Dashbord
 
+![DAshbord](images/dashbord.png)
