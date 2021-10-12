@@ -64,4 +64,19 @@ In sales tab admin can see bills.
 
 ![Billing](images/billing.png)
 
-This tab is available for employee.In Billing tab employee can create bill with selected price in product tab.
+This tab is available for employee. In Billing tab employee can create bill with selected price in product tab.
+
+## Contributing
+The main reason to publish something open source, is that anyone can just jump in and start contributing to my project.
+So If you'd like to contribute, be sure to review the contribution guidelines and then please fork the repository and use a feature branch. Pull requests are warmly welcome.
+
+## Author
+Amit Kumar Datta<br>
+Student at class 10<br>
+Municipal model high school, Chittagong<br>
+Bangladesh
+
+
+## License
+
+[MIT License](LICENSE)
