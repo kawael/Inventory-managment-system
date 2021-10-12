@@ -42,4 +42,26 @@ In empolyee tab admin can add, delete and update employee.
 
 It also available for only Admin. In empolyee tab admin can add, delete and update employee.
 
+### Category
 
+![Category](images/category.png)
+
+In Category tab admin can add, delete category.
+
+### Product
+
+![Product](images/product.png)
+
+In product tab admin can add, delete and update product.
+
+### Sales
+
+![Sales](images/sales.png)
+
+In sales tab admin can see bills.
+
+### Billing
+
+![Billing](images/billing.png)
+
+This tab is available for employee.In Billing tab employee can create bill with selected price in product tab.
