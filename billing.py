@@ -451,7 +451,9 @@ class BillClass:
         self.var_cname.set('')
         self.var_contact.set('')
         self.txt_bill_area.delete('1.0', END)
+        self.cartTitle.config(text=f"Cart \t Total Product: [0]")
         self.clear_cart()
+        self.var_search.set('')
         self.show()
         self.show_cart()
 
