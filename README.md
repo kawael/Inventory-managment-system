@@ -16,8 +16,7 @@ This project is motivated by Web code's inventory managment system. Here his pro
 
 # System Overview
 
-<img src="http://itsourcecode.com/wp-content/uploads/2021/06/Inventory-Management-System-General-Use-Case-Diagram.png" alt="Workflow Diagram" align="left" width="350" />
-
+![System Overview](http://itsourcecode.com/wp-content/uploads/2021/06/Inventory-Management-System-General-Use-Case-Diagram.png)
 The System consists of two main components -
 
 * Admin tab
