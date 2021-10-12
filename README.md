@@ -12,5 +12,5 @@ This is a software for practice of developing a system from completely scratch. 
 This software was originally developed by Amit Kumar Datta
 
 # Motivation
-This project is motivated by Web code's inventory managment system. Here his project - 
-> <a href="https://www.youtube.com/playlist?list=PL4P8sY6zvjk6ef4lpm6XiwJVRahLCp6DI "><h3>Inventory Management System with Database | Complete GUI Python Project </h3></a>
+This project is motivated by Web code's inventory managment system. Here his project - [Inventory Management System with Database | Complete GUI Python Project](https://www.youtube.com/playlist?list=PL4P8sY6zvjk6ef4lpm6XiwJVRahLCp6DI). His youtube channel - [Web code](https://www.youtube.com/channel/UCKJnF_GhwvmXqtGh9LePXpg)
+
