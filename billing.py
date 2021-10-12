@@ -402,15 +402,20 @@ class BillClass:
             #---Bill Bottom---
             self.bill_bottom()
 
+            fp=open(f'bill/{str(self.invoice)}.txt', 'w')
+            fp.write(self.txt_bill_area.get('1.0', END))
+            fp.close()
+            messagebox.showinfo('Saved', "Bill has been generated", parent=self.root)
+
     def bill_top(self):
-        invoice=int(time.strftime("%H%M%S")) + int(time.strftime("%d%m%Y"))
+        self.invoice=int(time.strftime("%H%M%S")) + int(time.strftime("%d%m%Y"))
         bill_top_temp=f'''
 \t\tIMS
  Phone no.: 09899098989 , Dhaka-1200
 {str("="*36)}
  Customer Name: {self.var_cname.get()}
  Phone No.:{self.var_contact.get()}
- Bill No.:{str(invoice)}\t Date: {str(time.strftime("%d/%m/%Y"))}
+ Bill No.:{str(self.invoice)}\t Date: {str(time.strftime("%d/%m/%Y"))}
 {str("="*36)}
  Product Name\t\t  QTY\t Price
 {str("="*36)}
