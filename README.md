@@ -27,3 +27,19 @@ The System consists of two main components -
 ### Dashbord
 
 ![DAshbord](images/dashbord.png)
+
+Dashbord is only available for only Admin. Admin can see full overview of business.
+
+### Employee
+
+![Employee](images/employee.png)
+
+In empolyee tab admin can add, delete and update employee.
+
+### Supplier
+
+![Supploer](images/supplier.png)
+
+It also available for only Admin. In empolyee tab admin can add, delete and update employee.
+
+
