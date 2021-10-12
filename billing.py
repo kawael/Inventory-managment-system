@@ -435,13 +435,17 @@ class BillClass:
         self.txt_bill_area.insert(END,bill_bottom_temp)
         
     def bill_middle(self):
-        for row in self.cart_list:
-        # pid,name,price,qty,stock
-            name=row[1]
-            qty=row[3]
-            price=float(row[2])*int(row[3])
-            price=str(price)
-            self.txt_bill_area.insert(END,"\n "+name+"\t\t  "+qty+"\t "+price)
+        try:
+            for row in self.cart_list:
+            # pid,name,price,qty,stock
+                name=row[1]
+                qty=row[3]
+                price=float(row[2])*int(row[3])
+                price=str(price)
+                self.txt_bill_area.insert(END,"\n "+name+"\t\t  "+qty+"\t "+price)
+
+        except Exception as ex:
+            messagebox.showerror("Error", f"Error due to : {str(ex)}", parent=self.root)
 
     def clear_cart(self):
         self.var_pid.set('')
